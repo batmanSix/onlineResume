@@ -1,0 +1,108 @@
+.rs-header-bar {
+  display: flex;
+  height: 30px;
+  background-color: #f0f9ff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 2;
+  align-items: center;
+  padding: 0 30px 0 30px;
+  justify-content: space-between;
+}
+.rs-header-bar__left {
+  display: flex;
+  align-items: center;
+}
+.rs-header-bar__right {
+  display: flex;
+  justify-content: flex-end;
+}
+.rs-header-bar__right .icon {
+  fill: black;
+}
+.rs-header-bar .rs-logo {
+  margin-left: 20px;
+}
+.rs-header-bar .rs-logo img {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+.rs-header-bar a {
+  color: #333;
+  font-size: 14px;
+  padding: 0px 10px;
+}
+.rs-header-bar a:focus {
+  color: #333;
+  background: #e6f7ff;
+}
+.rs-header-bar .rs-link {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+}
+.rs-feed-group {
+  background: #fff;
+  box-shadow: 0 4px 12px rgb(0 0 0%);
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 16px;
+  margin: 4px;
+}
+.rs-feed-group__wechat {
+  flex-direction: column;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 33px;
+}
+.rs-feed-group__qq {
+  flex-direction: column;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.rs-feed-group__text {
+  font-size: 12px;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 12px;
+  line-height: 20px;
+}
+.template-wrapper {
+  display: flex;
+}
+.template-wrapper .template {
+  margin: 0 10px;
+  cursor: pointer;
+}
+.template-wrapper .active {
+  box-shadow: 0px 0px 5px 3px #888080;
+}
+.template-wrapper .template-img {
+  width: 250px;
+  height: 345px;
+}
+.template-wrapper .template-title {
+  text-align: center;
+  margin: 5px 0;
+}
+.uploadMd {
+  display: none;
+  cursor: pointer;
+}
+.rs-article-container h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.rs-article-container img {
+  width: 60%;
+}
+.rs-article-container li {
+  margin-left: 20px;
+  list-style-type: square;
+}
